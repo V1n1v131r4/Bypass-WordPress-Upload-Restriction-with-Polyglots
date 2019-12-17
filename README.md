@@ -41,7 +41,7 @@ However, when uploading the .DOCX file WordPress does not validate its content a
 ![1](https://ciber.sejalivre.org/WP/9.png)
 
 
-In this scenario an attacker could take advantage of this lack of validation to host malicious DOCX files (eg camouflaged in resumes). The victim, upon receiving by other means a spreadsheet containing a macro, or even a PowerShell script, would have the malicious DOCX content executed.
+In this scenario, an attacker could take advantage of the lack of validation of the file upload restriction in WordPress 5.3.1 to host malicious DOCX files (eg camouflaged in resumes). The victim, upon receiving by other means a spreadsheet containing a macro or even a PowerShell script, would execute malicious DOCX content.
 
 ![1](https://ciber.sejalivre.org/WP/11.png)
 
